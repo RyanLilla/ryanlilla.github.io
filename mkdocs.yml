@@ -1,3 +1,31 @@
-site_name: My Docs
-theme: 
+site_name: Ryan Lilla
+
+nav:
+  - Home: index.md
+  - Markdown Cheatsheet: md.md
+
+theme:
   name: material
+  features:
+    # - navigation.tabs
+    # - navigation.sections
+    # - toc.integrate
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+
+markdown_extensions:
+  - tables
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.details
+  - pymdownx.mark
+  # - toc:
+  #     permalink: true

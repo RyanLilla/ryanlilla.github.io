@@ -25,7 +25,7 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode    
       primary: teal
-      accent: lime
+      accent: light blue
 
 markdown_extensions:
   - tables
